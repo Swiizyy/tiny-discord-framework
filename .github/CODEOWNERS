@@ -1,0 +1,11 @@
+/src/ @swiizyy
+/tests/ @swiizyy 
+LICENSE.md @swiizyy
+
+/scripts/ @swiizyy
+/.github/ @swiizyy
+/.vscode/ @swiizyy
+.npm-deprecaterc.yml @swiizyy
+jest.config.mjs @swiizyy
+package.json @swiizyy
+README.md @swiizyy
