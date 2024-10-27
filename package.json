@@ -1,6 +1,6 @@
 {
 	"name": "@swiizyy/tiny-discord-framework",
-	"version": "1.0.0-alpha.0",
+	"version": "1.0.0",
 	"description": "A tiny standalone Discord bot framework",
 	"main": "dist/cjs/index.cjs",
 	"module": "dist/esm/index.mjs",
