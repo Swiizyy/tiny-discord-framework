@@ -1,0 +1,13 @@
+
+name: tiny-discord-framework
+packagePath: .
+org: swiizyy
+monoRepo: false
+commitMessageTemplate: 'chore(release): release {{new-version}}'
+tagTemplate: v{{new-version}}
+identifierBase: false
+pushTag: true
+githubRelease: true
+githubReleaseLatest: true
+gitRepo: swiizyy/tiny-discord-framework
+gitHostVariant: github
