@@ -1,0 +1,26 @@
+name: NPM Auto Deprecate
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  auto-deprecate:
+    name: NPM Auto Deprecate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Auto Deprecate
+        run: yarn auto-deprecate
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
